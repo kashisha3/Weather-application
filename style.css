@@ -1,0 +1,142 @@
+:root{
+    --nav-color: #05195d;
+    --dropdown-button: #3b82f6;
+    --dropdown-button-change: #93c5fd;
+}
+
+/* ---------------css for nav bar --------------*/
+
+.navigation{
+    background-color: var(--nav-color);
+    color: white;
+    padding: 2rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .link{
+    text-align: center;
+    color: white;
+}
+
+.navigation .nav-pills{
+    text-align: center;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/* -------------- css for dropdown -----------------*/
+/* Dropdown Button */
+.dropbtn {
+    background-color: var(--dropdown-button);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: var(--dropdown-button-change)}
+
+#city{
+    text-align: center;
+}
+
+/* ------------- lists ----------------*/
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* ---------------links ----------------*/
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    
+}
+
+.link-primary{
+   background-color: var(--primary-color);
+   border-radius: 0.5rem;
+   color: white;
+   
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5ren;
+    border: 1px solid var(--primary-color);
+}
+
+/*-------------------css for cards----------------------*/
+.container
+{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.card-header
+{
+    background-color: var(--nav-color);
+    color: white;
+}
+
+/*------------------------css for footer----------------------------*/
+.footer{
+    background-color: var(--nav-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem ;
+    margin: auto 5rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer .footer-header{
+    font-size: larger;
+    font-weight: bold;
+}
